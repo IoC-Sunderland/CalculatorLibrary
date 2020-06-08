@@ -17,9 +17,9 @@ Create a new repo at GitHub
 Go to Circle CI and link repo
 
 The pipelin does th following:
-  Checks out the repository
-  Installs dependencies in a virtual environment
-  Runs the linter (flake8) and tests (pytest) while inside the virtual environment
+  1. Checks out the repository
+  2. Installs dependencies in a virtual environment
+  3. Runs the linter (flake8) and tests (pytest) while inside the virtual environment
 
 Check if the build fails/succeeds over at Circle CI - fix don't fix!
 
