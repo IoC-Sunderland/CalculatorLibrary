@@ -10,6 +10,16 @@ More info on Circle CI [here](https://circleci.com/enterprise-trial-install/?utm
 
 ## Instructions for use
 
+Create an account at Circle CI [here](https://circleci.com/enterprise-trial-install/?utm_source=gb&utm_medium=SEM&utm_campaign=SEM-gb-200-Eng-ni&utm_content=SEM-gb-200-Eng-ni-CircleCI&gclid=Cj0KCQjww_f2BRC-ARIsAP3zarGT2Uz8Ug8DF7MWCAq_FCXkD8at53KYsl60sfFq00yvlNJdjJ2jc78aApMQEALw_wcB)
 
+Create a new repo at GitHub
 
+Go to Circle CI and link repo
+
+The pipelin does th following:
+  Checks out the repository
+  Installs dependencies in a virtual environment
+  Runs the linter (flake8) and tests (pytest) while inside the virtual environment
+
+Check if the build fails/succeeds over at Circle CI - fix don't fix!
 
