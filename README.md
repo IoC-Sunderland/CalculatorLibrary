@@ -22,4 +22,3 @@ The pipeline does the following:
   3. Runs the linter (flake8) and tests (pytest) whilst inside the virtual environment
 
 Check if the build fails/succeeds over at Circle CI - fix/don't fix!
-
