@@ -16,7 +16,7 @@ Create a new repo at GitHub
 
 Go to Circle CI and link repo
 
-The pipelin does th following:
+The pipeline does the following:
   1. Checks out the repository
   2. Installs dependencies in a virtual environment
   3. Runs the linter (flake8) and tests (pytest) while inside the virtual environment
