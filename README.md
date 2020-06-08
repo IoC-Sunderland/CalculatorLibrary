@@ -19,7 +19,7 @@ Go to Circle CI and link repo
 The pipeline does the following:
   1. Checks out the repository
   2. Installs dependencies in a virtual environment
-  3. Runs the linter (flake8) and tests (pytest) while inside the virtual environment
+  3. Runs the linter (flake8) and tests (pytest) whilst inside the virtual environment
 
-Check if the build fails/succeeds over at Circle CI - fix don't fix!
+Check if the build fails/succeeds over at Circle CI - fix/don't fix!
 
