@@ -1,7 +1,5 @@
 # Python CircleCI 2.0 configuration file
-version: 2.1
-orbs:
-  slack: circleci/slack@3.4.2
+version: 2.0
 jobs:
   build:
     docker:
@@ -19,11 +17,6 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
-      - slack/notify:
-          channel: circle-ci-builds
-          color: '#42e2f4'
-          message: This is a custom message notification
-          webhook: SLACK_WEBHOOK
       # Step 3: run linter and tests
       - run:
           name: run tests
